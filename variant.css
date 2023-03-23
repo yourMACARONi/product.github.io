@@ -1,0 +1,260 @@
+* {box-sizing: border-box}
+
+body{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #7c0707!important;
+}
+
+/* Variant 1 */
+/* Container needed to position the overlay. Adjust the width as needed */
+.container2 {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
+/* Variant 2 */
+/* Container needed to position the overlay. Adjust the width as needed */
+.container3 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* When you mouse over the container, fade in the overlay title */
+.container3:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+
+  /* Variant 3 */
+/* Container needed to position the overlay. Adjust the width as needed */
+.container4 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image3 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* When you mouse over the container, fade in the overlay title */
+.container4:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+    /* Variant 4 */
+/* Container needed to position the overlay. Adjust the width as needed */
+.container5 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image4 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* When you mouse over the container, fade in the overlay title */
+.container5:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+
+      /* Variant 5 */
+/* Container needed to position the overlay. Adjust the width as needed */
+.container6 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image5 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* When you mouse over the container, fade in the overlay title */
+.container6:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+.beer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25vh;
+}
+
+
+/* back button */
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+
+  /* Style links on mouse-over */
+.sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 100;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    background: rgba(10, 1, 10, 0.9);
+
+    
+}
+
+nav .logo {
+    width: 70px;
+    border-radius: 55%;
+
+    
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}

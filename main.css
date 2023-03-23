@@ -1,0 +1,123 @@
+* {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    
+    .back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    
+    @media (min-aspect-ratio:16/9){
+      .back-video {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+    @media (max-aspect-ratio:16/9){
+        .back-video {
+          width: auto;
+          height: 100%;
+        }
+      }
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    top: 0;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.757);
+
+
+
+}
+
+/* added rh.html header design*/
+li, a, button{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+    text-decoration: none;
+}
+/* this is the header */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+/* This is the logo */
+.logo{
+    width: 170px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 70px;
+}
+/* This is the Nav's */
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+/* info navs */
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+}
+/* info navs color and animation */
+.nav_links li a:hover{
+    color: rgb(255, 51, 0);
+}
+
+/* this is the button */
+button{
+    margin-top: 9px;
+    /* space of the text */
+    margin-left: 20px;
+    /*  */
+    padding:  9px 25px;
+    background-color: rgb(177, 41, 7);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+/* this is the button color and animation */
+button:hover{
+    background-color: rgba(47, 4, 2, 0.8);
+}
+
+/* Main picture */
+.beer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.beer-pic{
+    max-width: 0;
+}
+
+h1{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+h3{
+    font-size: 20px;
+    color: #fff; 
+    font-family: 'Mochiy Pop One', sans-serif;
+}
